@@ -1,12 +1,15 @@
-export default function Button() {
+interface Props {
+    content: string;
+}
+export default function Button({ content }: Props) {
     return (
         <div className={`
-            flex flex-col
+            flex flex-col p-2 hover:text-zinc-300 hover:bg-slate-700
             items-center justify-center
-            w-full h-10 rounded-3xl
-            bg-gradient-to-t from-[#4232EE] via-[#4A37F2] to-[#5239F5]
+            w-full h-16 rounded-3xl text-[#FFF]
+            bg-[#4232EE]
         `}>
-
+            {content}
         </div>
     )
 }
