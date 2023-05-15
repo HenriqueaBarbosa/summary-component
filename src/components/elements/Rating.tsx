@@ -1,4 +1,8 @@
-export default function Rating() {
+interface Props {
+    children: React.ReactNode;
+}
+
+export default function Rating(props: Props) {
     return (
         <div className={`
             flex flex-col
@@ -6,7 +10,7 @@ export default function Rating() {
             w-full h-10 rounded
             bg-gradient-to-t from-[#4232EE] via-[#4A37F2] to-[#5239F5]
         `}>
-
+            {props.children}
         </div>
     )
 }

@@ -5,7 +5,9 @@ export default function CardSummary() {
       <div className={`
         
       `}>
-        <Card summary/>
+        <Card summary>
+            
+        </Card>
       </div>
     )
   }
