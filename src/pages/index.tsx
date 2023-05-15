@@ -1,10 +1,9 @@
-import Card from "@/components/elements/Card";
-import Circle from "@/components/elements/Circle";
+import Home from "@/components/home/Home";
 
-export default function Home() {
+export default function Index() {
   return (
     <div>
-      <Circle />
+      <Home />
     </div>
   )
 }
