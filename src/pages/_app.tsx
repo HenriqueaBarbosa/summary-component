@@ -4,8 +4,8 @@ import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className='font-hanken'>
+    <div className='font-hanken'>
       <Component {...pageProps} />
-    </main>
+    </div>
   )
 }
