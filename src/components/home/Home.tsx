@@ -8,7 +8,7 @@ export default function Home() {
         h-screen w-screen
       `}>
         <div className={`
-        flex rounded-3xl flex-wrap m-8
+        flex rounded-3xl flex-wrap items-center justify-center
         shadow-2xl shadow-indigo-100
       `}>
             <CardResult />
